@@ -323,6 +323,9 @@ html, body {
 .section-services:before {
     content: '';
     background: url(../../agent2.jpg) no-repeat fixed center / cover;
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -490,6 +493,9 @@ html, body {
 /* Section: Counters */
 .section-counters {
     background: url(../../propic.jpeg) no-repeat fixed center / cover;
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
     width: 100%;
     padding: 100px 0;
     position: relative;
