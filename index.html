@@ -1,536 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Your-Title-Here" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Your-Page-Description" />
-	<title>Vinci Tang</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans" rel="stylesheet" type='text/css'>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Css -->
-	<link rel="stylesheet" href="css/core.min.css" />
-	<link rel="stylesheet" href="css/skin-design-agency-one-page-2.css" />
+    <title>PortfolioPerfect</title>
 
-	<!--[if lt IE 9]>
-    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500&display=swap" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      body{
+        font-family: 'Noto Sans HK', sans-serif;
+      }
+    </style>
 
 </head>
+<body>
 
-<body class="shop home-page">
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v7.0"
-		nonce="aogskhuY"></script>
-	<!-- Side Navigation Menu -->
-	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="scale-in">
-		<div class="side-navigation-scroll-pane">
-			<div class="side-navigation-inner">
-				<div class="side-navigation-header">
-					<div class="navigation-hide side-nav-hide">
-						<a href="#">
-							<span class="icon-cancel medium"></span>
-						</a>
-					</div>
-				</div>
-				<nav class="side-navigation nav-block">
-					<ul>
-						<li class="current">
-							<a href="#home" data-offset="0" class="scroll-link">財策範疇</a>
-						</li>
-						<li>
-							<a href="#about" data-offset="-60" class="scroll-link">關於Vinci</a>
-						</li>
-						<!-- <li>
-							<a href="#folio" data-offset="-60" class="scroll-link">客戶故事</a>
-						</li> -->
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
 
-						<li>
-							<a href="#contact" data-offset="-60" class="scroll-link">聯絡顧問</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="side-navigation-footer">
-					<ul class="social-list list-horizontal">
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-					</ul>
-					<p class="copyright no-margin-bottom">&copy; 2020 Vinci Tang.</p>
-				</div>
-			</div>
-		</div>
-	</aside>
-	<!-- Side Navigation Menu End -->
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="#hero" class=""><img src="logo.png" style="width: 100px;" alt="logo"></a>
 
-	<div class="wrapper reveal-side-navigation">
-		<div class="wrapper-inner">
+                </div><!-- /.navbar-header -->
 
-			<!-- Header -->
-			<header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="100">
-				<div class="header-inner">
-					<div class="row nav-bar">
-						<div class="column width-12 nav-bar-inner">
-							<div class="logo">
-								<div class="logo-inner" style="backdrop-filter: blur(6px) brightness(2) contrast();">
-									<a href="index.html"><img src="logo.png" alt="Renard Logo" /></a>
-									<a href="index.html"><img src="logo.png" alt="Renard Logo" /></a>
-								</div>
-							</div>
-							<nav class="navigation nav-block secondary-navigation nav-right">
-								<ul>
-									<li class="aux-navigation hide">
-										<!-- Aux Navigation -->
-										<a href="#" class="navigation-show side-nav-show nav-icon">
-											<span class="icon-menu"></span>
-										</a>
-									</li>
-								</ul>
-							</nav>
-							<nav class="navigation nav-block primary-navigation nav-right">
-								<ul>
-									<li class="current">
-										<a href="#folio" data-offset="0" class="scroll-link">財策範疇</a>
-									</li>
-									<li>
-										<a href="#about" data-offset="-60" class="scroll-link">關於Vinci</a>
-									</li>
-									<!-- <li>
-										<a href="#about" data-offset="-60" class="scroll-link">客戶故事</a>
-									</li> -->
+                <div class="main-menu" id="portfolio-perfect-collapse">
 
-									<li>
-										<a href="#contact" data-offset="-60" class="scroll-link">聯絡顧問</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
-			<!-- Header End -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll"><a href="#service">關於 VINCI</a></li>
+                        <li class="page-scroll"><a href="#portfolio">財策範疇</a></li>
+                        <li class="page-scroll"><a href="#contact">聯絡顧問</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
 
-			<!-- Content -->
-			<div class="content clearfix">
+                </div><!-- /.navbar-collapse -->
 
-				<!-- Home section. Hero Introduction with Fullscreen Slider Section -->
-				<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
-					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax
-						data-animation="slide" data-scale-under="960">
-						<ul class="tms-slides">
-							<li class="tms-slide" data-image data-as-bkg-image data-force-fit
-								data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.6"
-								data-animation="scaleOut">
-								<div class="tms-content">
-									<div class="tms-content-inner center v-align-middle">
-										<div class="row">
-											<div class="column width-10 offset-1">
-												<div class="tms-caption no-scale"
-													data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:200ms;easing:easeFastSlow;"
-													data-no-scale>
-													<h1
-														class="title-large color-white lspacing-small mb-10 text-uppercase">
-														個人及中小企
-													</h1>
-												</div>
-												<div class="tms-caption no-scale"
-													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms;easing:easeFastSlow;"
-													data-no-scale>
-													<h1
-														class="title-large color-white lspacing-small mb-10 text-uppercase">
-														專業財務策劃師
-													</h1>
-												</div>
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
 
-												<div class="clear"></div>
-												<div class="tms-caption no-scale text-line-vertical"
-													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:800ms;easing:easeFastSlow;"
-													data-no-scale>
-													<p
-														class="lead color-white text-uppercase no-margin-bottom opacity-07">
-														明天的你，會感謝你今天所作的安排！
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<img data-src="agentbg.jpg" data-retina src="agentbg.jpg" alt="" />
-							</li>
-						</ul>
-					</div>
-				</section>
-				<!-- Hero Introduction with Fullscreen Slider Section End -->
-				<div id="folio">
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
 
-					<!-- Content Section -->
-					<div class="section-block replicable-content bkg-white">
-						<div class="row">
-							<div class="column width-3">
-								<h3 class="mb-30">財務策劃範疇
+                <div class="col-md-6">
+                    <h1>VINCI TANG</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">個人及中小企
+                        專業財務策劃師</p>
+                        <a href="#contact" class="btn btn-fill ">免費諮詢</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">了解更多</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 text-right">
+                    <img src="propic.jpeg" alt="alex-vidal">
+                </div>
 
-								</h3>
-							</div>
-							<!-- <div class="column width-9">
-								<p class="color-grey-light">At vero eos et accusamus et iusto odio dignissimos ducimus
-									qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-									molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-									qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-									rerum facilis est et expedita distinctio.</p>
-							</div> -->
-						</div>
-					</div>
-					<!-- Content Section End -->
+            </div>
+        </div>
+    </div><!-- /.hero -->
 
-					<!-- Portfolio Grid -->
-					<div class="section-block full-width grid-container no-margins fade-in-progressively bkg-charcoal grid-1"
-						data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700"
-						data-animate-resize data-animate-resize-duration="0">
-						<div class="row">
-							<div class="column width-12">
-								<div class="row grid content-grid-3">
-									<div class="grid-item grid-sizer">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-toolbar="zoom"
-												data-group="gallery-1" data-caption="投資儲蓄" href="images/icon3-01.png">
-												<img src="images/icon3-01.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">投資儲蓄
-															</span>
-															<span
-																class="project-description">由於複息效應關係，及早儲蓄可帶來滾雪球般的回報。不少投資工具可以為你帶來被動利息收入，快讓金錢為你工作，賺取更高及穩健的收入吧！
-															</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-toolbar="zoom"
-												data-group="gallery-1" data-caption="保險索償" href="images/icon3-02.png">
-												<img src="images/icon3-02.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">保險索償</span>
-															<span
-																class="project-description">保險用作將部分財務風險轉移給保險公司。若你想知道突發事故出現時，如何透過手上的保險計劃解決問題？Harrod
-																樂意把多年的索償經驗分享給你，並為你提供意見！</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-group="gallery-1"
-												data-caption="醫療服務"
-												href="images/renard/portfolio/ilnur-kalimullin-332587.jpg">
-												<img src="images/icon3-03.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">醫療服務</span>
-															<span
-																class="project-description">由全面體檢、疫苗注射、基因檢測到海外生育治療，Harrod多年來累積的醫療人脈網定能為你服務！連鎖醫療集團如
-																MediPoint，華健醫療，匡喬醫療集團，仁和體檢，亦為你的所需提供折扣優惠！</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-group="gallery-1"
-												data-caption="退休管理" href="images/renard/portfolio/rob-bye-325775.jpg">
-												<img src="images/icon3-04.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">退休管理</span>
-															<span
-																class="project-description">讓年輕盛年的你為自己的退休生活作好準備！都市人越來越長壽，儲下的積儲能否足夠用過世是一個問題。透過年金等退休工具，能夠為你提供一筆保證及穩定的現金收入。</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-group="gallery-1"
-												data-caption="工作培訓"
-												href="images/renard/portfolio/vinicius-amano-386864.jpg">
-												<img src="images/icon3-05.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">工作培訓</span>
-															<span
-																class="project-description">社會發展上升階梯停滯不前，要在這世代中脫穎而出實不容易！理財顧問是一們自己作主的業務，現時Harrod團隊帶領著富學歷與活力的小伙伴，透過獨有的客戶轉介平台一起打拼，闖一番事業！</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-											data-hover-speed="800" data-hover-bkg-color="#000000"
-											data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-group="gallery-1"
-												data-caption="商業保險"
-												href="images/renard/portfolio/matthew-hamilton-384332.jpg">
-												<img src="images/icon3-06.png" alt="" />
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">商業保險</span>
-															<span class="project-description">我們管理風險讓你專注拓展業務！Harrod
-																深明白作為中小企東主的你可能更想把時間和資源放在業務上。從法定強制保險到團體醫療福利，一站式的商業保險方案能夠為你分憂解難！</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<!-- <div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="800" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-toolbar="zoom" data-group="gallery-1" data-caption="Bunker - Berlin, Germany" href="images/renard/portfolio/mike-wilson-263703.jpg">
-												<img src="images/renard/portfolio/thumbnails/mike-wilson-263703.jpg" alt=""/>
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">Cross</span>
-															<span class="project-description">L.A., United States</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="800" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-toolbar="zoom" data-group="gallery-1" data-caption="Gropius - Madrid, Spain" href="images/renard/portfolio/igor-ovsyannykov-329196.jpg">
-												<img src="images/renard/portfolio/thumbnails/igor-ovsyannykov-329196.jpg" alt=""/>
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">Gropius</span>
-															<span class="project-description">Madrid, Spain</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="grid-item">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="800" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.86">
-											<a class="overlay-link lightbox-link" data-group="gallery-1" data-caption="Farnsworth - Plano Il, U.S" href="images/renard/portfolio/vinicius-amano-386864.jpg">
-												<img src="images/renard/portfolio/thumbnails/vinicius-amano-386864.jpg" alt=""/>
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">Farnsworth</span>
-															<span class="project-description">Plano IL, U.S</span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div> -->
-									<!-- Portfolio Grid Items End -->
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Portfolio Grid End -->
+    <main id="main" class="site-main">
 
-				</div>
+        <section id="about" class="site-section section-about text-center" hidden>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hello! I'm Alex, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
 
+        <section class="site-section section-skills" hidden>
+          
+        </section><!-- /.secton-skills -->
 
-				<section id="about">
+        <section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>關於 VINCI</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                   <div class="col-md-12" style="font-size: 18px; text-align: left;">
+                    Harrod畢業於香港浸會大學工商管理學院財務決策學系。從事財務策劃工作踏入第六個年頭，為超過530個家庭提供高效理財方案，熟悉市場上各類投資工具及保險產品。
+                    <br><br>
+                    醫療網絡方面，多年的保險從業經驗，為Harrod累積不少相熟醫療資源人脈，為客户朋友轉介至各大醫療集團進行疫苗注射、基因檢測、生育治療等等⋯
+                    <br><br>
+                    商業方案及僱員福利方面，Harrod現已為超過30家公關廣告公司、工程公司及社福機構提供服務。一站式商險服務涵蓋工程全保、短期活動責任保險、團體醫療、僱主強積金安排、辦公室及勞工保險等等⋯
+                    <br><br>
+                    多年來不但取得各項業績獎項，Harrod 亦持續增值行業知識，於CFP財務策劃師考試中考獲Merit Status，登上刊物Advisors Today！此外，亦在香港財務策劃師學會及註冊財務策劃師協會所辦的比賽中取得優異成績！
+                    <br><br>
+                    近年，Harrod亦活躍於網上保險諮詢平台及討論區，在多次大型天災時在網上設立保險索償支援區解答疑問。
+                   </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
 
-					<!-- Content Section -->
-					<div class="section-block pb-40 bkg-charcoal">
-						<div class="row">
-							<div class="column width-12">
-								<h3 class="mb-30 color-white">關於 Vinci</h3>
-							</div>
-							<div class="column width-5 offset-3">
-								<p class="color-grey-light">
-									Harrod畢業於香港浸會大學工商管理學院財務決策學系。從事財務策劃工作踏入第六個年頭，為超過530個家庭提供高效理財方案，熟悉市場上各類投資工具及保險產品。
-								</p>
-								<p class="color-grey-light">
-									醫療網絡方面，多年的保險從業經驗，為Harrod累積不少相熟醫療資源人脈，為客户朋友轉介至各大醫療集團進行疫苗注射、基因檢測、生育治療等等⋯</p>
-								<p class="color-grey-light">
-									商業方案及僱員福利方面，Harrod現已為超過30家公關廣告公司、工程公司及社福機構提供服務。一站式商險服務涵蓋工程全保、短期活動責任保險、團體醫療、僱主強積金安排、辦公室及勞工保險等等⋯
-								</p>
-								<p class="color-grey-light"> 多年來不但取得各項業績獎項，Harrod 亦持續增值行業知識，於CFP財務策劃師考試中考獲Merit
-									Status，登上刊物Advisors Today！此外，亦在香港財務策劃師學會及註冊財務策劃師協會所辦的比賽中取得優異成績！</p>
-								<p class="color-grey-light">近年，Harrod亦活躍於網上保險諮詢平台及討論區，在多次大型天災時在網上設立保險索償支援區解答疑問。</p>
-							</div>
-							<div class="column width-4 horizon"
-								data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;easing:easeFastSlow;"
-								data-threshold="0.5">
-								<div class="stats-1 left">
-									<img src="propic.jpeg" width="760" height="500" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Content Section End -->
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>財務策劃範疇</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-01.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>投資儲蓄</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-02.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>保險索償</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-03.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>醫療服務</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-04.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>退休管理</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-05.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>工作培訓</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://harrodho.com/harrodho-img/icon3-06.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>商業保險</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                </a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
 
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 style="color: white;">中小企客戶認可</h3>
+                        <img src="assets/img/lines.svg" style="filter: invert(100%);" class="img-lines" alt="lines">
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="Marquee" style="width: 100%; opacity: .9;">
+                <div class="Marquee-content">
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-01.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-02.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-03.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-01.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-03.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-02.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-03.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-02.png"></div>
+                    <div class="Marquee-tag"><img src="https://harrodho.com/harrodho-img/client-01.png"></div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
 
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
 
-				</section>
+                <h3>聯絡我</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" type="submit">傳送 <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
 
-				<!-- Contact -->
-				<section id="contact" style="background-image: url('agent2fix.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    </main><!-- /#main -->
 
-					<!-- Hero 2 -->
-					<div class="section-block hero-1 hero-1-1 small color-charcoal-light bkg-grey-ultralight" style="opacity: .9;" >
-						<div class="row">
-							<div class="column width-12">
-								<div class="hero-content">
-									<div class="hero-content-inner">
-										<div class="row">
-											<div class="column width-3">
-												<h3>聯絡顧問</h3>
-											</div>
-											<!-- <div class="column width-9">
-												<p class="lead mb-70 color-charcoal-light">Whether you just want to say
-													hello or have us take a look at your project, just drop us a line
-													and we'll get back to you <strong>within 48hrs</strong>.</p>
-											</div> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Hero 2 End -->
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2020 Vinci Tang. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
 
-					<!-- Form -->
-					<div class="section-block replicable-content contact-2" style="background-image: url('agent2fix.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-color: black;" >
-						<div class="row" style="opacity: .8;">
-							<div class="column width-12">
-								<div class="row">
-									<div class="column width-9 offset-3">
-										<div class="contact-form-container" >
-											<form class="contact-form" action="php/send-email.php" method="post"
-												novalidate>
-												<div class="row">
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<input type="text" name="fname"
-																class="form-fname form-element"
-																placeholder="First Name*" tabindex="1" required>
-														</div>
-													</div>
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<input type="text" name="lname"
-																class="form-lname form-element" placeholder="Last Name"
-																tabindex="2">
-														</div>
-													</div>
-													<div class="column width-12">
-														<div class="field-wrapper">
-															<input type="email" name="email"
-																class="form-email form-element"
-																placeholder="Email address*" tabindex="3" required>
-														</div>
-													</div>
-													
-													<div class="column width-6">
-														<input type="text" name="honeypot"
-															class="form-honeypot form-element">
-													</div>
-												</div>
-												<div class="row">
-													<div class="column width-12">
-														<div class="field-wrapper">
-															<textarea name="message" class="form-message form-element"
-																placeholder="Message*" tabindex="5" required></textarea>
-														</div>
-														<input type="submit" value="Send"
-															class="form-submit button bkg-charcoal bkg-hover-theme color-white color-hover-white" style="width: 100%;">
-													</div>
-												</div>
-											</form>
-											<div class="form-response"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					<!-- Form End -->
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+  
+            <img class="img-res" src="https://harrodho.com/harrodho-img/icon3-01.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">投資儲蓄</h4>
+            <p>由於複息效應關係，及早儲蓄可帶來滾雪球般的回報。不少投資工具可以為你帶來被動利息收入，快讓金錢為你工作，賺取更高及穩健的收入吧！</p>
+          </div>
+          <div class="modal-footer">
+            <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-				</section>
-				<!-- Contact End -->
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+        
+            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">保險索償</h4>
+            <p>保險用作將部分財務風險轉移給保險公司。若你想知道突發事故出現時，如何透過手上的保險計劃解決問題？Harrod 樂意把多年的索償經驗分享給你，並為你提供意見！</p>
+          </div>
+          <div class="modal-footer">
+              <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-			</div>
-			<!-- Content End -->
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+       
+            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">醫療服務</h4>
+            <p>由全面體檢、疫苗注射、基因檢測到海外生育治療，Harrod多年來累積的醫療人脈網定能為你服務！連鎖醫療集團如 MediPoint，華健醫療，匡喬醫療集團，仁和體檢，亦為你的所需提供折扣優惠！</p>
+          </div>
+          <div class="modal-footer">
+              <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-			<!-- Footer -->
-			<footer class="footer center">
-				<div class="footer-top">
-					<div class="row flex">
-						<div class="column width-6 offset-3 center">
-							<div class="widget">
-								<!-- <h4 class="widget-title">Renard Onepage Concept</h4>
-								<address>324 West Broadway<br>New York, NY 10013</address>
-								<ul class="social-list list-horizontal">
-									<li><a href="#">Twitter</a> -</li>
-									<li><a href="#">Facebook</a></li>
-								</ul> -->
-							<div class="fb-page " data-href="https://www.facebook.com/vincitang.support/" data-tabs="timeline" data-width=""
-								data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-								data-show-facepile="true">
-								<blockquote cite="https://www.facebook.com/vincitang.support/" class="fb-xfbml-parse-ignore"><a
-										href="https://www.facebook.com/vincitang.support/">Vinci Tang 保險索償支援</a></blockquote>
-							</div>
-								<p class="copyright clear-float" style="margin-top: 20px;">
-									&copy; 2020 Vinci Tang
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- Footer End -->
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+         
+            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">退休管理</h4>
+            <p>讓年輕盛年的你為自己的退休生活作好準備！都市人越來越長壽，儲下的積儲能否足夠用過世是一個問題。透過年金等退休工具，能夠為你提供一筆保證及穩定的現金收入</p>
+          </div>
+          <div class="modal-footer">
+              <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-		</div>
-	</div>
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+           
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">工作培訓</h4>
+            <p>社會發展上升階梯停滯不前，要在這世代中脫穎而出實不容易！理財顧問是一們自己作主的業務，現時Harrod團隊帶領著富學歷與活力的小伙伴，透過獨有的客戶轉介平台一起打拼，闖一番事業！</p>
+          </div>
+          <div class="modal-footer">
+                <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-	<!-- Js -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/timber.master.min.js"></script>
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">商業保險</h4>
+            <p>我們管理風險讓你專注拓展業務！Harrod 深明白作為中小企東主的你可能更想把時間和資源放在業務上。從法定強制保險到團體醫療福利，一站式的商業保險方案能夠為你分憂解難！</p>
+          </div>
+          <div class="modal-footer">
+              <a data-dismiss="modal" class="btn btn-fill">關閉</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
 </body>
-
 </html>
