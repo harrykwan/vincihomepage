@@ -48,7 +48,9 @@
 
 </head>
 <body>
-
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v7.0"
+    nonce="aogskhuY"></script>
     <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
@@ -245,21 +247,23 @@
             <div class="container">
 
                 <h3>聯絡我</h3>
+
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <button href="#" class="btn btn-border" type="submit">傳送 <span class="glyphicon glyphicon-send"></span></button>
-                </form>
+  
+                <div><div class="col-sm-4 col-xs-12"></div>
+                <div class="col-sm-4 col-xs-12">
+                  <div class="fb-page " data-href="https://www.facebook.com/vincitang.support/" data-tabs="timeline" data-width=""
+                    data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/vincitang.support/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/vincitang.support/">Vinci Tang 保險索償支援</a></blockquote>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-xs-12"></div></div>
+      
+                     
+
+           
             </div>
         </section><!-- /.section-form -->
 
@@ -267,6 +271,7 @@
 
     <footer id="colophon" class="site-footer">
         <div class="container">
+     
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
                     <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
