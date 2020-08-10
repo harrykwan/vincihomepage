@@ -37,6 +37,9 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 	<script type="text/javascript" src="js/modernizr.js"></script> 	
 	
 </head>
@@ -105,7 +108,7 @@
 				
 		</div>
 		
-	<div id="services">
+	<div id="services" data-aos="fade-up">
 		<div class="section padding-top-bottom white-background">
 			<div class="container">
 				<div class="twelve columns">
@@ -177,7 +180,7 @@
 
 		<div class="clear"></div>
 	
-		<div id="about">
+		<div id="about" data-aos="fade-up">
 			<div class="section grey-background">
 		
 				<div class="cd-single-item">
@@ -230,7 +233,7 @@
 		</div> -->
 
 
-		<div id="customerpage" class="section padding-top-bottom-small ">
+		<div id="customerpage" class="section padding-top-bottom-small " data-aos="fade-up">
 			<div class="container">
 				<!-- <div class="twelve columns">
 						<h5>中小企客戶認可</h5>
@@ -477,6 +480,9 @@
 	}); 
 })(jQuery);
 </script>	
+<script>
+	AOS.init();
+</script>
 	<!-- ==================
 		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
 		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
