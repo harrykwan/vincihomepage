@@ -41,7 +41,41 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 	<script type="text/javascript" src="js/modernizr.js"></script> 	
-	
+	<!-- Facebook Pixel Code -->
+	<script>
+		const mypageid = "CarParkRental"
+
+		! function (f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '316500179745290');
+		fbq('track', 'PageView_HomePage');
+	</script>
+
+	<style>
+		strong{
+			color: #16a085;	
+		}
+	</style>
+
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=316500179745290&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 </head>
 <body class="royal_loader">	
 	<div id="fb-root"></div>
@@ -85,7 +119,7 @@
 					<div class="twelve columns">
 						<p>Vinci Tang</p>	
 						<h2>個人及中小企 <br>專業財務策劃師</h2>
-						<h2><button style="width: 200px;">立即聯絡我</button></h2>
+						<h2><button onclick="whatsappme()" style="width: 200px;">立即聯絡我</button></h2>
 					</div>	
 				</div>	
 			</div>
@@ -204,13 +238,13 @@
 							<p>關於 Vinci</p>
 							<!-- <h4>We use strategy and design to connect brands and people…</h4>		 -->
 						</div>
-						<div class="">Vinci畢業於香港科技大學工商管理學院會計學系。從事財務策劃工作踏入第三個年頭，為大大小小的個人、家庭、中小企提供高效理財方案，熟悉市場上各類投資工具及保險產品。
+						<div class="">Vinci畢業於香港科技大學工商管理學院會計學系。從事財務策劃工作踏入第三個年頭，為大大小小的個人、家庭、中小企提供<strong>高效理財方案</strong>，熟悉市場上各類投資工具及保險產品。<br><br>
 		
-							醫療網絡方面，多年的保險從業經驗以及資深團隊的支持，為Vinci累積不少相熟醫療資源人脈，為客户朋友轉介至各大醫療集團進行疫苗注射、基因檢測、生育治療等等⋯
+							醫療網絡方面，多年的保險從業經驗以及資深團隊的支持，為Vinci累積不少相熟<strong>醫療資源人脈</strong>，為客户朋友轉介至各大醫療集團進行<strong>疫苗注射、基因檢測、生育治療</strong>等等⋯<br><br>
 		
-							商業方案及僱員福利方面，Vinci現向不同公司提供商險及索償服務。一站式商險服務涵蓋工程全保、短期活動責任保險、團體醫療、僱主強積金安排、辦公室及勞工保險等等⋯
+							商業方案及僱員福利方面，Vinci現向不同公司提供商險及索償服務。<strong>一站式商險服務</strong>涵蓋工程全保、短期活動責任保險、團體醫療、僱主強積金安排、辦公室及勞工保險等等⋯<br><br>
 		
-							近年，Vinci亦活躍於網上保險諮詢平台及討論區，在不同大型天災時在網上設立保險索償支援區解答疑問。
+							近年，Vinci亦活躍於網上保險諮詢平台及討論區，在不同大型天災時在網上設立<strong>保險索償支援區</strong>解答疑問。
 						</div>
 					</div> <!-- cd-item-info -->
 				</div> <!-- cd-single-item -->
@@ -243,6 +277,27 @@
 					<p>中小企客戶認可</p>
 					<!-- <h3>We use cutting-edge tech and cutting-edge thinking to bring brands to life online.</h3> -->
 				</div>
+
+				<div class="section padding-top-bottom-smaller ">
+					<div class="container">
+						<div class="twelve columns">
+							<div id="owl-logo" class="owl-carousel owl-theme">
+				
+			
+								<div class="item">
+									<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
+								</div>
+								<div class="item">
+									<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
+								</div>
+				
+								<div class="item">
+									<img src="ustlogo.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="section padding-top-bottom">
 				
 					<div class="parallax-2" style="filter: brightness(50%);"></div>
@@ -261,20 +316,30 @@
 								class="owl-carousel owl-theme ">
 				
 								<div class="item ">
-									<p>「 Harrod 工作認真，跟Case用心 ，能給予僱主僱員一個最好保障。 」
+									<p>「 專業貼心的跟進，讓我們能夠更少煩惱，專心在自己的範疇上。 」<br></p>
 									<p>
-									<h6>- Henri Matisse -</h6>
+										
+									<h6><img src="customer1.png" style="width: 100px;"><br><strong>- Graham Tsoi -</strong><br>
+									<span style="font-size: 15px; opacity: .8;">Chairman<br>
+									Hong Kong Table Soccer Federation<br>
+									</h6></span>
+									</p>
+									<p style="text-align: right; opacity: .8;">1/2</p>
 								</div>
 				
 								<div class="item">
-									<p>「 推介大家有保險需要時要搵Harrod。 」</p>
-									<h6>- Steve Jobs -</h6>
+										<p>「 Vinci 解說清𥇦，跟Case用心，能給予僱主僱員一個最好保障 」<br></p>
+										<p>
+										
+										<h6><img src="customer2.png" style="width: 100px;"><br><strong>- Graham Tsoi -</strong><br>
+											<span style="font-size: 15px; opacity: .8;">Chairman<br>
+												Hong Kong Table Soccer Federation<br>
+										</h6></span>
+										</p>
+										<p style="text-align: right; opacity: .8;">2/2</p>
 								</div>
 				
-								<div class="item ">
-									<p>「 專業貼心的跟進，讓我們能夠更少煩惱，專心在自己的範疇上。 」</p>
-									<h6>- Mitchell Kapor -</h6>
-								</div>
+							
 				
 							</div>
 				
@@ -284,41 +349,7 @@
 
 
 
-				<div class="section padding-top-bottom-smaller ">
-					<div class="container">
-						<div class="twelve columns">
-							<div id="owl-logo" class="owl-carousel owl-theme">
 				
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-08.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-06.png" alt="">
-								</div>
-				
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-08.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-06.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
-								</div>
-				
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 
@@ -376,8 +407,8 @@
 							data-show-facepile="true">
 							<blockquote cite="https://www.facebook.com/vincitang.support/" class="fb-xfbml-parse-ignore"><a
 									href="https://www.facebook.com/vincitang.support/">Vinci Tang 保險索償支援</a></blockquote>
-						</div>
-					
+						</div><br><br>
+					<button onclick="whatsappme()" style="width: 200px;">立即聯絡我</button>
 					</div>
 				</div>		
 				<div class="twelve columns">
@@ -482,6 +513,10 @@
 </script>	
 <script>
 	AOS.init();
+
+	function whatsappme(){
+		window.open('http://wa.me/85264415709')
+	}
 </script>
 	<!-- ==================
 		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 

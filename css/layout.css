@@ -920,7 +920,7 @@ ul.slimmenu.collapsed li > ul {
 	height: 76vh;
 }
 #owl-top .item.top-image-1{
-	background-image:url('../homepage.png');
+	background-image:url('../homepage.jpg');
 }
 #owl-top .item.top-image-2{
 	background-image:url('../images/slider/2.jpg');
@@ -4131,7 +4131,9 @@ p.justify{
 
 .parallax-2 {
 	background: url('../allpeople.JPG') repeat fixed;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center top;
 	position: absolute;
 	top: 0; 
 	left: 0; 
@@ -4233,7 +4235,7 @@ p.justify{
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax-post { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
