@@ -71,6 +71,14 @@
 		strong{
 			color: #16a085;	
 		}
+
+		.topimageblur{
+			filter: blur(8px) contrast(60%) brightness(140%) grayscale(30%);
+		}
+
+		.homebackdrop{
+			-webkit-backdrop-filter: blur(13px) contrast(30%) brightness(140%) ; backdrop-filter: blur(13px) contrast(30%) brightness(140%) ;
+		}
 	</style>
 
 	<noscript><img height="1" width="1" style="display:none"
@@ -88,7 +96,7 @@
 		<div id="menu-wrap" class="menu-back cbp-af-header">
 			<div class="container">
 				<div class="twelve columns">
-					<div class="logo" style="filter: grayscale(100%);"></div>
+					<div class="logo" style="filter: grayscale(100%);  transform: scale(1.6); "></div>
 					<ul class="slimmenu">
 						<li>
 							<a href="#services">財策範疇</a>
@@ -115,7 +123,7 @@
 		<div class="section full-height" id="home">
 		
 			<div class="hero-top">
-				<div class="container" style="-webkit-backdrop-filter: blur(13px) contrast(30%) brightness(140%) ; padding-top: 50px; backdrop-filter: blur(13px) contrast(30%) brightness(140%) ;">			
+				<div class="container homebackdrop" style=" padding-top: 50px; ">			
 					<div class="twelve columns">
 						<p>Vinci Tang</p>	
 						<h2>個人及中小企 <br>專業財務策劃師</h2>
@@ -131,8 +139,17 @@
 							
 			<div id="owl-top" class="owl-carousel owl-theme">
 								 
-				<div class="item top-image-1" style="filter: blur(8px) contrast(60%) brightness(140%) grayscale(30%);">		
+				<div class="item top-image-1 topimageblur" style="" onclick="removeblur(this)">		
 				</div>
+
+				<script>
+					// refresh_image();
+					// setInterval(refresh_image, 5000);
+
+					function refresh_image() {
+						document.getElementsByClassName("top-image-1")[0].style.backgroundImage = "url('https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random()+"')";
+					}
+				</script>
 				
 								 
 			</div>
@@ -221,10 +238,7 @@
 					<div class="cd-slider-wrapper">
 						<img style="opacity: .8;" src="propic.jpeg" alt="">
 		
-						<ul class="cd-slider-navigation">
-							<li><a href="#0" class="cd-prev inactive">Next</a></li>
-							<li><a href="#0" class="cd-next">Prev</a></li>
-						</ul> <!-- cd-slider-navigation -->
+					
 		
 						<a href="#0" class="cd-close">Close</a>
 					</div> <!-- cd-slider-wrapper -->
@@ -234,7 +248,8 @@
 							<p>關於 Vinci</p>
 							<!-- <h4>We use strategy and design to connect brands and people…</h4>		 -->
 						</div>
-						<div class="">Vinci畢業於香港科技大學工商管理學院會計學系。從事財務策劃工作踏入第三個年頭，為大大小小的個人、家庭、中小企提供<strong>高效理財方案</strong>，熟悉市場上各類投資工具及保險產品。<br><br>
+						<div class="">
+							Vinci畢業於香港科技大學工商管理學院會計學系。從事財務策劃工作踏入第三個年頭，為大大小小的個人、家庭、中小企提供<strong>高效理財方案</strong>，熟悉市場上各類投資工具及保險產品。<br><br>
 		
 							醫療網絡方面，多年的保險從業經驗以及資深團隊的支持，為Vinci累積不少相熟<strong>醫療資源人脈</strong>，為客户朋友轉介至各大醫療集團進行<strong>疫苗注射、基因檢測、生育治療</strong>等等⋯<br><br>
 		
@@ -246,6 +261,26 @@
 				</div> <!-- cd-single-item -->
 		
 			</div>
+					<div class="section padding-top-bottom-smaller ">
+						<div class="container">
+							<div class="twelve columns">
+								<div id="owl-logo" class="owl-carousel owl-theme">
+					
+					
+									<div class="item">
+										<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
+									</div>
+									<div class="item">
+										<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
+									</div>
+					
+									<div class="item">
+										<img src="ustlogo.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 		</div>
 	
 		<div class="clear"></div>
@@ -269,31 +304,15 @@
 						<h5>中小企客戶認可</h5>
 					
 				</div> -->
+
+		
+
 				<div class="header-text main-pages" style="margin-top: 50px;">
 					<p>中小企客戶認可</p>
 					<!-- <h3>We use cutting-edge tech and cutting-edge thinking to bring brands to life online.</h3> -->
 				</div>
 
-				<div class="section padding-top-bottom-smaller ">
-					<div class="container">
-						<div class="twelve columns">
-							<div id="owl-logo" class="owl-carousel owl-theme">
-				
-			
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
-								</div>
-								<div class="item">
-									<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
-								</div>
-				
-								<div class="item">
-									<img src="ustlogo.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+	
 				<div class="section padding-top-bottom">
 				
 					<div class="parallax-2" style="filter: brightness(50%);"></div>
@@ -327,9 +346,9 @@
 										<p>「 Vinci 解說清𥇦，跟Case用心，能給予僱主僱員一個最好保障 」<br></p>
 										<p>
 										
-										<h6><img src="customer2.png" style="width: 100px;"><br><strong>- Graham Tsoi -</strong><br>
-											<span style="font-size: 15px; opacity: .8;">Chairman<br>
-												Hong Kong Table Soccer Federation<br>
+										<h6><img src="customer2.png" style="width: 100px;"><br><strong>- Angie Shek -</strong><br>
+											<span style="font-size: 15px; opacity: .8;">Founder<br>
+												MMOW<br>
 										</h6></span>
 										</p>
 										<p style="text-align: right; opacity: .8;">2/2</p>
@@ -455,6 +474,12 @@
                 background:     ['#FFFFFF']
             });
 })(jQuery);
+
+
+function removeblur(x){
+	x.classList.remove('topimageblur')
+	document.getElementsByClassName('homebackdrop')[0].classList.remove('homebackdrop')
+}
 </script>
 <script type="text/javascript" src="js/scroll.js"></script>
 <script type="text/javascript"> 
