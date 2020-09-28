@@ -478,6 +478,9 @@
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
+		if (location.protocol !== 'https:') {
+			location.replace(`https:${location.href.substring(location.protocol.length)}`);
+		}
 		(function ($) {
 			"use strict";
 			Royal_Preloader.config({
