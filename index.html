@@ -246,7 +246,7 @@
 
 				<div class="cd-single-item">
 					<div class="cd-slider-wrapper">
-						<img style="opacity: .8;" src="propic.jpeg" alt="">
+						<img style="opacity: .8; width: 90%;" src="https://cubing.rocks/custom/homepage.jpg" alt="">
 
 
 
@@ -478,9 +478,12 @@
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
-		if (location.protocol !== 'https:') {
-			location.replace(`https:${location.href.substring(location.protocol.length)}`);
+		if (location.href.indexOf('localhost')==-1){
+			if (location.protocol !== 'https:') {
+				location.replace(`https:${location.href.substring(location.protocol.length)}`);
+			}
 		}
+		
 		(function ($) {
 			"use strict";
 			Royal_Preloader.config({
