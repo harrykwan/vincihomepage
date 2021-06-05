@@ -149,11 +149,13 @@
 
 				<script>
 					// refresh_image();
-					// setInterval(refresh_image, 5000);
+					setInterval(refresh_image, 2000);
 
 					function refresh_image() {
-						document.getElementsByClassName("top-image-1")[0].style.backgroundImage =
-							"url('https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random() + "')";
+						// document.getElementsByClassName("top-image-1")[0].style.backgroundImage =
+						// 	"url('https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random() + "')";
+						document.getElementById('propicimg').src =
+						"https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random() + "";
 					}
 				</script>
 
@@ -246,7 +248,7 @@
 
 				<div class="cd-single-item">
 					<div class="cd-slider-wrapper">
-						<img style="opacity: .8; width: 90%;" src="https://cubing.rocks/custom/homepage.jpg" alt="">
+						<img id="propicimg" style="opacity: .8; width: 90%;" src="https://cubing.rocks/custom/homepage.jpg" alt="">
 
 
 
